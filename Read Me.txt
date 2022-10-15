@@ -1,0 +1,10 @@
+Starting the localhost server procedure - 
+
+Change the absolute path in the env file of the variable DB_DATABASE to the absolute path the sqlite file
+
+Start the server:
+php artisan serve
+
+Due to issues with the use of sqlite some of the commands for updating database currently not working.
+The project which would be more efficient using microsoft sql service but due to limitations 
+of the project size, therefore I used sqlite.
